@@ -137,21 +137,72 @@ body {
 header {
   width: 100%;
   display: flex;
+  background-color: white;
 }
 header nav {
-  margin-top: 40px;
-  margin-left: px;
-  width: 610px;
+  margin-top: 30px;
+  margin-left: 450px;
+  margin-bottom: 30px;
+  width: 500px;
   justify-content: space-around;
   display: flex;
+  background-color: white;
 }
 header nav a {
   text-decoration: none;
   color: black;
 }
+.container {
+  width: 880px;
+  margin: auto;
+}
 .topContainer {
   background-color: #e3e0e0;
 }
-.middle {
+.top {
+  margin: 10px 0 15px 0;
+  padding: 15px 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+.top h1 {
+  font-size: 32px;
+  padding: 16px;
+}
+.body {
+  background-color: #e3e0e0;
+  border-top: solid 1px;
+  border-color: lightgray;
+}
+button {
+  border: 1px solid black;
+  font-size: 18px;
+  background: gray;
+  color: white;
+  width: 170px;
+  height: 32px;
+  margin-top: 10px;
+  margin-left: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.img {
+  max-width: 45%;
+  height: auto;
+  padding: 20px;
+}
+.ifYou {
+  padding: 16px;
+  font-size: 20px;
+}
+.mission {
+  font-size: 22px;
+  padding: 16px;
   display: flex;
+}
+.mission .info {
+  width: 50%;
+}
+.mission .info .portfolio {
+  width: 50%;
 }
